@@ -86,12 +86,6 @@ body {
   transform: translateY(-50%);
 }
 
-#switch button:hover {
-  background: var(--highlight-color);
-  border-radius: 9999px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
 #switch span {
   display: block;
   width: 64px;
