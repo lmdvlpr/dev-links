@@ -27,6 +27,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
+  height: 100vh;
 
   background-image: var(--bg-url);
   background-repeat: no-repeat;
@@ -158,4 +159,14 @@ footer {
 
 footer a {
   text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
